@@ -6,13 +6,13 @@ Spice Simulation
 Basic Scripting   
 Managing Licensed Options  
 
-# Spice Simulation  
+## Spice Simulation
 
 The Spice simulation in SailWind Logic enables you to set up and analyze your design using advanced procedures including setting up Spice Netlists, AC Analysis, DC Source Sweep Analysis, Transient Analysis, and applying attributes to your analog designs..  
 
 Analog Schematics for Simulation Creating a SPICE Netlist Setting Up AC Analysis Setting Up DC Source Sweep Analysis Setting Up the SPICE Netlister Setting Up Transient Analysis Apply Attributes to Your Analog Design  
 
-# Analog Schematics for Simulation  
+### Analog Schematics for Simulation
 
 You can create analog schematics and generate netlists for SPICE Simulators. Add analog attributes with simulation values to parts and nets for SPICE simulation.  
 
@@ -26,13 +26,13 @@ Each SPICE model must have a separate .mod file. A model file can have subcircui
 
 Add SPICE Attributes to Library Parts Versus Schematic Parts Adding SPICE Attributes to Schematic Parts or Nets  
 
-# Add SPICE Attributes to Library Parts Versus Schematic Parts  
+#### Add SPICE Attributes to Library Parts Versus Schematic Parts
 
 You can add SPICE attributes to library parts instead of parts in the schematic. When you add attributes to schematic parts, you must add them each time you use the part. When you add attributes to parts in the library; however, you don't have to add them again.  
 
 See also Attributes Overview.  
 
-# Adding SPICE Attributes to Schematic Parts or Nets  
+#### Adding SPICE Attributes to Schematic Parts or Nets
 
 When you add attributes to schematic parts, you must add them each time you use the part. Consider adding the attributes to your library parts.  
 
@@ -54,7 +54,7 @@ Use the MODEL attribute to refer to component simulation models. Models take the
 
 Creating a SPICE Netlist  
 
-# Creating a SPICE Netlist  
+### Creating a SPICE Netlist
 
 After you add parts (with SPICE attributes) to your schematic, or add SPICE attributes to existing parts, you can create a SPICE netlist in preparation for simulation.  
 
@@ -90,7 +90,7 @@ An output window displays the resulting netlist. All warnings, errors, and comme
 
 Analog Schematics for Simulation  
 
-# Setting Up AC Analysis  
+### Setting Up AC Analysis
 
 As part of setting up your SPICE netlister, you can set options specifically for an AC analysis.  
 
@@ -116,7 +116,7 @@ For more information on AC Analysis, see the Help in your SPICE simulator.
 
 Setting Up the SPICE Netlister  
 
-# Setting Up DC Source Sweep Analysis  
+### Setting Up DC Source Sweep Analysis
 
 As part of setting up your SPICE netlister, you can set options specifically for a DC Sweep analysis.  
 
@@ -140,7 +140,7 @@ For more information on DC Source Sweep Analysis, see the Help in your SPICE sim
 
 Setting Up the SPICE Netlister  
 
-# Setting Up the SPICE Netlister  
+### Setting Up the SPICE Netlister
 
 After you add parts (with SPICE attributes) to your schematic, or add SPICE attributes to existing parts, you can create a SPICE netlist in preparation for simulation.  
 
@@ -169,7 +169,7 @@ For more information on Simulation Setup, see the Help in your SPICE simulator.
 
 Creating a SPICE Netlist Setting Up AC Analysis Setting Up DC Source Sweep Analysis Setting Up Transient Analysis  
 
-# Setting Up Transient Analysis  
+### Setting Up Transient Analysis
 
 As part of setting up your SPICE netlister, you can set options specifically for a Transient analysis.  
 
@@ -201,13 +201,13 @@ For more information on Transient Analysis, see the Help in your SPICE simulator
 
 Setting Up the SPICE Netlister  
 
-# Apply Attributes to Your Analog Design  
+### Apply Attributes to Your Analog Design
 
 There is a list of attributes that you can apply to your analog design. Review the list and select those attributes that are relevant to your design intent.  
 
 Please see the “SPICE Netlist Attribute Glossary” in the SailWind Logic Command Reference.  
 
-# Basic Scripting  
+## Basic Scripting
 
 Basic is a simple scripting language. Like many Windows applications, such as Microsoft Word and Excel, SailWind applications include Basic capabilities to enable users to customize their applications using a standard scripting language.  
 
@@ -220,7 +220,7 @@ Using the Basic Scripts Dialog Box
 Manage the Sax Basic Engine   
 Basic Sample Scripts  
 
-# Managing Scripts  
+### Managing Scripts
 
 SailWind Logic offers a flexible number of options for managing scripts. You can open existing scripts, manage open scripts, edit scripts, edit user dialog boxes to enable user interaction, find automation statements, and watch variables. This gives you a high level of control over setting up and managing your scripts.  
 
@@ -231,7 +231,7 @@ Editing a User Dialog Box
 Finding an Automation Statement   
 Watching a Variable  
 
-# Opening an Existing Script  
+#### Opening an Existing Script
 
 Scripts are created in and stored in script files that have a .bas extension. The default location for .bas files is C:\SailWind Projects.  
 
@@ -244,11 +244,11 @@ Scripts are created in and stored in script files that have a .bas extension. Th
 Note:   
 A selection of sample scripts is available in the C:\SailWind Projects\Samples\Scripts\Logic folder.  
 
-# Manage Open Scripts  
+#### Manage Open Scripts
 
 The commands on the Sheet submenu provide script management methods. Since you can have up to nine scripts open at the same time, you can open #uses, close sheets, close multiple sheets, and choose scripts to view and edit.  
 
-# Opening #uses Modules  
+#### Opening #uses Modules
 
 #Uses modules are Basic scripts that are called from within other scripts. To open these secondary scripts:  
 
@@ -274,7 +274,7 @@ To view a particular script:
 
 • Right-click and select Sheet. Then click the script you want to view from the list of open scripts on the submenu. Alternatively, you can click the script's numbered tab in the gutter.  
 
-# Editing a Script  
+#### Editing a Script
 
 You can copy or cut selected text from the Basic Script Editor to the Clipboard. You can also paste a selection from the Clipboard into the text window. You can also paste text from the Clipboard into other applications.  
 
@@ -290,7 +290,7 @@ Your selection is pasted in the Output window at the insertion point.
 
 As an alternative, you can click the Copy, Cut, and Paste buttons on the Basic Script Editor toolbar.  
 
-# Editing a User Dialog Box  
+#### Editing a User Dialog Box
 
 A UserDialog is defined by a Begin Dialog...End Dialog block.  
 
@@ -298,7 +298,7 @@ A UserDialog is defined by a Begin Dialog...End Dialog block.
 
 1. In the Basic Script Editor, put your cursor in a UserDialog block of the script. 2. Click the Edit UserDialog button. See also Sax Basic Editor On Line Help (C:\<install_folder>\<version>\Programs\sbe5_000.hlp)  
 
-# Finding an Automation Statement  
+#### Finding an Automation Statement
 
 If you are working with a long script, you can search for particular statements.  
 
@@ -308,7 +308,7 @@ If you are working with a long script, you can search for particular statements.
 
 The statement appears in the Basic Script Editor.  
 
-# Watching a Variable  
+#### Watching a Variable
 
 Quick Watch shows the value of the expression under the cursor in the immediate window.  
 
@@ -318,7 +318,7 @@ Right-click and click Quick Watch.
 As an alternative, in the Basic Script Editor, click the Quick Watch button.   
 See also Sax Basic Editor Online Help.  
 
-# Creation of Scripts  
+### Creation of Scripts
 
 You can create scripts to simplify redundant activities.  
 
@@ -328,7 +328,7 @@ Inserting an Automation Statement Using the ActiveX Automation Members Dialog
 Setting the Next Statement   
 Showing the Next Statement  
 
-# Creating a Script  
+#### Creating a Script
 
 You can create a script using the Basic Script Editor.  
 
@@ -337,7 +337,7 @@ You can create a script using the Basic Script Editor.
 1. Click the Tools $>$ Basic Scripts $>$ Basic Script Editor menu item. In SailWind Layout and SailWind Logic, the SAX Basic Engine dialog box appears.   
 2. Click the New button.  
 
-# Inserting an Automation Statement Using the Object and Procedure Lists  
+#### Inserting an Automation Statement Using the Object and Procedure Lists
 
 Use the Object and Procedure lists to select and insert a statement. These lists contain the most commonly used statements.  
 
@@ -349,7 +349,7 @@ Use the Object and Procedure lists to select and insert a statement. These lists
 
 The statement appears at the bottom of the script.  
 
-# Inserting an Automation Statement Using the ActiveX Automation Members Dialog  
+#### Inserting an Automation Statement Using the ActiveX Automation Members Dialog
 
 Use the ActiveX Automation Members dialog box to insert a statement from the extensive list provided.  
 
@@ -362,7 +362,7 @@ This dialog box contains an extensive list of statements.
 
 Tip If the pointer is on any line in the script other than the bottom line, the line is overwritten.  
 
-# Setting the Next Statement  
+#### Setting the Next Statement
 
 You can force a particular line in a script to run next. You can only select statements in the current subroutine or function.  
 
@@ -373,7 +373,7 @@ You can force a particular line in a script to run next. You can only select sta
 
 An instruction pointer appears next to the selected line. This line, and only this line, will run next. If you go to other parts of the script, you can return to this line by clicking Show Next Statement.  
 
-# Showing the Next Statement  
+#### Showing the Next Statement
 
 In the Basic Script Editor, you can navigate the right mouse button menu to initiate the Show Next Statement command.  
 
@@ -385,13 +385,13 @@ An instruction pointer indicates the next statement to run.
 
 i Tip Pausing a running script or setting a statement to run next sets the next statement. You can locate the set statement from anywhere in the script.  
 
-# Run Scripts  
+### Run Scripts
 
 You can run an existing script using Run. Run also resumes the playback of a paused script. When you run a script, you cannot use the mouse in the workspace.  
 
 Running a Script Pausing a Running Script Stopping a Running Script  
 
-# Running a Script  
+#### Running a Script
 
 You can run a script using the Macro command in the Basic Script Editor.  
 
@@ -400,7 +400,7 @@ You can run a script using the Macro command in the Basic Script Editor.
 1. In the Basic Script Editor, open a script file.   
 2. Right-click and click the Macro $>$ Run menu item. As an alternative, on the Basic Script Editor toolbar, click the Start/Resume button.  
 
-# Pausing a Running Script  
+#### Pausing a Running Script
 
 When running a long script, you may need to pause it to perform some other design activity.  
 
@@ -414,7 +414,7 @@ When running a long script, you may need to pause it to perform some other desig
 
 If you paused the script, you can also use Run, Step Over, or Step to Cursor to resume running the script. Right-click and select Run to resume running the script.  
 
-# Stopping a Running Script  
+#### Stopping a Running Script
 
 You can stop a running script at any time. However, you cannot resume running a script once you have stopped it. When you click Run, the script starts from the beginning.  
 
@@ -423,13 +423,13 @@ You can stop a running script at any time. However, you cannot resume running a 
 In the Basic Script Editor, right-click and click the Macro $>$ End menu item.   
 As an alternative, on the Basic Script Editor toolbar, click the Stop button.  
 
-# Debug Scripts  
+### Debug Scripts
 
 When running a script, you can run it step-by-step or to a certain location in the script. To perform these debugging tasks, insert breakpoints in the script at the points at which you want the script to stop.  
 
 Setting or Removing the Breakpoints Debug the Scripts Removing All Breakpoints in the Script Correction of Run-Time Errors  
 
-# Setting or Removing the Breakpoints  
+#### Setting or Removing the Breakpoints
 
 The ability to set or remove breakpoints is useful when you debug a script. If the Basic engine encounters a breakpoint when running a script, it pauses the script.  
 
@@ -446,7 +446,7 @@ This action inserts a breakpoint at the current cursor location. A breakpoint ma
 Note:   
 When the Basic engine encounters a breakpoint while running a script, it pauses the script. The next line in the script is marked with the instruction pointer.  
 
-# Debug the Scripts  
+#### Debug the Scripts
 
 Once breakpoints are inserted, you can debug scripts using the Debug commands.  
 
@@ -470,7 +470,7 @@ To continue the execution from the current point:
 
 • On the Basic Script Editor toolbar, click the Run button. As an alternative, in the Basic Script Editor, right-click and click the Macro $>$ Run menu item.  
 
-# Removing All Breakpoints in the Script  
+#### Removing All Breakpoints in the Script
 
 You have the option to remove all breakpoints instead of single breakpoints.  
 
@@ -479,11 +479,11 @@ You have the option to remove all breakpoints instead of single breakpoints.
 In the Basic Script Editor, right-click and click the Debug $>$ Clear All Breaks menu item.   
 This removes all breakpoints in the script.  
 
-# Correction of Run-Time Errors  
+#### Correction of Run-Time Errors
 
 If run-time errors occur, the script debugger switches to step-by-step mode and displays a detailed message on the status bar. The instruction pointer is set on the line that produced the error. After fixing the error, you can resume running the script.  
 
-# Accessing Help on the Basic Language  
+### Accessing Help on the Basic Language
 
 While writing or running scripts, you can access Help that provides information and a sample script using the Basic language statements.  
 
@@ -492,7 +492,7 @@ While writing or running scripts, you can access Help that provides information 
 Select or click in an item in color in the edit area of the Basic Script Editor and then press F1.   
 Help appears for the current statement.  
 
-# Using the Basic Scripts Dialog Box  
+### Using the Basic Scripts Dialog Box
 
 The Basic Scripts dialog box provides easy access to your Basic scripts. From there you can edit and debug your scripts.  
 
@@ -527,7 +527,7 @@ When loading scripts, note the following:
 
 Basic Sample Scripts  
 
-# Manage the Sax Basic Engine  
+### Manage the Sax Basic Engine
 
 The Sax Basic Engine dialog box provides access to the Sax Basic Engine Script editor. You can design, develop and edit scripts that add to, replace, enhance, or customize existing SailWind Logic features.  
 
@@ -545,11 +545,17 @@ You can also create a script that runs a series of scripts, or a "master" script
 
 '\$Include: "scriptA.bas" '\$Include: "scriptB.bas" '\$Include: "scriptC.bas" Sub Main  
 
-# Using Advanced Procedures Manage the Sax Basic Engine  
+**Using Advanced Procedures Manage the Sax Basic Engine**
 
-Call scriptA Call scriptB Call scriptC End Sub  
+ Call scriptA 
 
-# Editor Colors  
+ Call scriptB 
+
+ Call scriptC 
+
+End Sub  
+
+**Editor Colors**
 
 The Basic Script Editor displays source code using different colors. The color is context-sensitive: when you place the cursor on the text and press F1, the correct help file opens to the correct help topic. For example, if the cursor is on a SailWind Logic Automation Object (purple) when you press F1, the Automation Server On-line Help appears.  
 
@@ -558,13 +564,13 @@ Table 42. Basic Script Editor Color Representations
 
 <table><tr><td>Color</td><td>Represents</td></tr><tr><td>Blue</td><td>Basic Keywords</td></tr><tr><td>Black</td><td>User Variables</td></tr><tr><td>Cyan</td><td>Basic Functions</td></tr><tr><td>Purple</td><td>SailWind Logic Automation Objects or Members</td></tr><tr><td>Red</td><td>Errors</td></tr><tr><td>Green</td><td>Comments</td></tr></table>  
 
-# Basic Sample Scripts  
+### Basic Sample Scripts
 
 To address common design scenarios, and to provide a starting point for the development of custom user scripts, SailWind Logic includes a collection of sample Basic scripts. All sample scripts are commented.  
 
 Basic Sample Scripts 00 Through 11 Basic Sample Scripts — RGL Reports Basic Sample Scripts — Advanced  
 
-# Basic Sample Scripts 00 Through 11  
+#### Basic Sample Scripts 00 Through 11
 
 Samples 00 through 09 provide an overview of Basic if you don't have experience with Basic scripts. Samples 10 and 11 provide small SailWind Logic features that add, enhance, or customize a SailWind Logic feature.  
 
@@ -580,7 +586,7 @@ Table 43. Basic Sample Script Listing (continued)
 
 <table><tr><td>Script Filename</td><td>Description</td></tr><tr><td>09 Using it All Together.BAS</td><td>Provides a "real life" example. Lists all design files in the default files directory. Selecting a file from the list will open that file in SailWind Logic.</td></tr><tr><td>10 List Of Comps and Nets.BAS</td><td>Lists all components and nets.</td></tr><tr><td>11 Select by Pin Count.BAS</td><td>Enables you to enter a number of pins. All parts with that number of pins are selected.</td></tr></table>  
 
-# Basic Sample Scripts — RGL Reports  
+#### Basic Sample Scripts — RGL Reports
 
 Basic scripts are equivalent to existing RGL reports.  
 
@@ -591,7 +597,7 @@ Table 44. Basic Sample Scripts/RGL Reports Listing
 
 <table><tr><td>Script Filename</td><td>Description</td></tr><tr><td>RGL.BAS</td><td>Contains a library of functions, which is used by the_ other scripts in this group; the scripts in this group must contain RGL.BAS to function.</td></tr><tr><td>Net Statistics.BAS</td><td>Lists all nets in the schematic and identifies any questionable nets.</td></tr><tr><td>Part Statistics.BAS</td><td>Lists all parts in the schematic.</td></tr><tr><td>Unused Gates.BAS</td><td>Lists all unused gates in the schematic.</td></tr><tr><td>Unused Pins.BAS</td><td>Lists all unused pins in the schematic.</td></tr><tr><td>Unused.BAS</td><td>Lists all unused pins and gates in the schematic.</td></tr></table>  
 
-# Basic Sample Scripts — Advanced  
+#### Basic Sample Scripts — Advanced
 
 Advanced Basic script files are located in C:\<install_folder>\<version $>$ \Samples\Scripts\Logic.  
 
@@ -605,13 +611,13 @@ Table 45. Basic Sample Scripts/Advanced Listing (continued)
 
 <table><tr><td>Script Filename</td><td>Description</td></tr><tr><td>Modeless Attributes.BAS</td><td>Generates a modeless dialog box, which you use to manage part attributes.</td></tr><tr><td>Modeless QM Part.BAS</td><td>Generates a modeless dialog box, which you use to manage part and gate properties.</td></tr><tr><td>Modeless Visibility.BAS</td><td>Generates a modeless dialog box, which you use to manage gate and attribute visibility.</td></tr><tr><td>SailWind Layout Net List Without Rules.BAS</td><td>Generates a netlist report in ASCll format.</td></tr><tr><td>SailWind Logic Script Wizard.BAS</td><td>Generates a Wizard dialog box, which you use to create a Basic report.</td></tr><tr><td>Sheet Hierarchy to Excel.BAS</td><td>Creates a sheet hierarchy report in Excel, which enables you to cross-probe between SaiiWind Logic objects and the Excel cells containing the object names.</td></tr></table>  
 
-# Managing Licensed Options  
+## Managing Licensed Options
 
 You can view and manage your licensed SailWind Logic options. You can view the available options for node-locked or floating licenses.  
 
 Viewing a License File or License Status License File Definition  
 
-# Viewing a License File or License Status  
+### Viewing a License File or License Status
 
 If you are using node-locked licensing, you can view the contents of a license file. If you are using floating licenses, you cannot view the actual license file, but you can view the status of the features associated with a server license.  
 
@@ -628,13 +634,13 @@ For Floating Licenses — To view the status of the features associated with a s
 
 Installed Options Dialog Box License File Definition  
 
-# License File Definition  
+### License File Definition
 
 This section describes the license file and the possible options enabled in it.  
 
 All installed options appear in the Installed Options Dialog Box on page 394.  
 
-# Options  
+**Options**
 
 FEATURE SailWindLogic paizieda \  
 
